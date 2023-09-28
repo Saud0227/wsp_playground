@@ -2,7 +2,7 @@
 
 class App < Sinatra::Base
   get '/' do
-    @index_data = ["Item1", "Item2", "Item3", "Item4"]
+    @index_data = %w[Item1 Item2 Item3 Item4]
     @title = "Home"
     erb :index
   end

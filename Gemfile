@@ -1,6 +1,7 @@
 
 source 'https://rubygems.org'
 
-gem 'thin'
+gem 'rubocop', group: 'development', require: false
 gem 'sinatra'
-gem 'rerun'
+gem 'rerun', group: 'development', require: false
+gem 'thin'
